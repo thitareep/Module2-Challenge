@@ -69,7 +69,7 @@ p {
     background-position: center;
 }
 
-.hero .quote {
+.hero .subtitle {
     font-size: 35px;
     text-align: right;
     color:#ffffff;
@@ -80,7 +80,7 @@ p {
     flex-wrap: wrap;
 }
 
-.hero .quote #quote-text {
+.hero .subtitle #subtitle-quote {
     font-size: 40px;
 }
 
