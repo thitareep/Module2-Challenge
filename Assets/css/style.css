@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: :border-box;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -75,7 +75,7 @@ p {
     color:#ffffff;
     position:absolute;
     margin-right: 20px;
-    top: 220px;
+    top: 200px;
     left: 20px;
     flex-wrap: wrap;
 }
@@ -121,3 +121,39 @@ p {
     padding-right: 10px;
     border-radius: 50%;
 }
+
+/* My Work Styling */
+.my-work {
+    padding: 0;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.work-display-wrapper {
+    width: 75%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.work-grid {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat (2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 15px;
+}
+
+.work {
+    border: solid;
+    color: lightslategray;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: wavy;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
