@@ -52,7 +52,6 @@ header nav {
 /* Hover changes color on navigation menu */
 header nav a:hover{
     color: var(--pop);
-
 }
 
 header nav ul {
@@ -64,7 +63,6 @@ header ul li {
     margin-left: 25px;
     flex-wrap: wrap;
 }
-
 
 a {
     color:var(--primary);
@@ -151,7 +149,6 @@ p {
     display:flex;
     justify-content: space-between;
 }
-
 
 .work-display-wrapper {
     width: 75%;
