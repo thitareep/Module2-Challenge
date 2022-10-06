@@ -84,3 +84,40 @@ p {
     font-size: 40px;
 }
 
+/* Title Styling */
+.title {
+    border-right: 3px solid;
+    min-height: 100%;
+    text-align: right;
+    padding-right: 20px;
+    min-width: 20%;
+    max-width: 20%;
+}
+
+.title h2 {
+    font-size:30px ;
+}
+
+/* About Me Styling */
+.about-me {
+    display: flex;
+    justify-content: left ;
+    align-items: stretch;
+    padding-top: 35px;
+}
+
+.about-me p {
+    font-size: 20px;
+    padding: 0;
+    line-height: 1.5;
+    width: 90%;
+}
+
+.profile img{
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+    padding-left:30px;
+    padding-right: 10px;
+    border-radius: 50%;
+}
