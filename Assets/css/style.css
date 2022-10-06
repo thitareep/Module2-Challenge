@@ -1,8 +1,14 @@
+/* Global Styling */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: :border-box;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Smooth scrolling effect for page */
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -46,6 +52,7 @@ header ul li {
     margin-left: 25px;
 }
 
+
 a {
     color:#ffffff;
     text-decoration: none;
@@ -69,18 +76,95 @@ p {
     background-position: center;
 }
 
-.hero .quote {
-    font-size: 35px;
+.hero .subtitle {
+    font-size: 30px;
+    text-shadow: #000000 2px 2px 2px;
     text-align: right;
     color:#ffffff;
     position:absolute;
     margin-right: 20px;
-    top: 220px;
-    left: 20px;
+    top: 200px;
+    right: 40px;
     flex-wrap: wrap;
 }
 
-.hero .quote #quote-text {
-    font-size: 40px;
+.hero .subtitle #subtitle-quote {
+    font-size: 33px;
 }
 
+/* Title Styling */
+.title {
+    border-right: 3px solid;
+    min-height: 100%;
+    text-align: right;
+    padding-right: 20px;
+    min-width: 20%;
+    max-width: 20%;
+}
+
+.title h2 {
+    font-size:30px ;
+}
+
+/* About Me Styling */
+.about-me {
+    display: flex;
+    justify-content: left ;
+    align-items: stretch;
+    padding-top: 35px;
+}
+
+.about-me p {
+    font-size: 20px;
+    padding: 0;
+    line-height: 1.5;
+    width: 90%;
+}
+
+.profile img{
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+    padding-left:30px;
+    padding-right: 10px;
+    border-radius: 50%;
+}
+
+/* My Work Styling */
+.my-work {
+    padding: 0;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.work-display-wrapper {
+    width: 75%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.work-grid {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat (2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 25px;
+}
+
+.work {
+    border: solid;
+    color: rgb(67, 83, 98);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
+.work:hover {
+    opacity: 1.0;
+}
