@@ -186,14 +186,14 @@ p {
 .project-1 {
     grid-column: 1/3;
     grid-row: span 1;
-    background-image: url("../images/fotis-fotopoulos-DuHKoV44prg-unsplash.jpg");
+    background-image: url("../images/WHAT2WATCH_SS2.png");
     border-radius: 25px;
     height: 400px;
     width:700px;
 }
 
 .project-2 {
-    background-image: url("../images/bernard-hermant-XyzPOIMqWfc-unsplash.jpg");
+    background-image: url("../images/WeatherDash_SS2.png");
     border-radius: 25px;
 }
 
