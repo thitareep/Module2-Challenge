@@ -5,4 +5,4 @@ This is the completed application of the Module 2 challenge. The purpose of this
 ## Screenshot
 ![](Assets/images/Portfolio-Screenshot.png)
 ## Deployed Link
-https://thitareep.github.io/Module2_Challenge/
+https://thitareep.github.io/portfolio/
